@@ -3,7 +3,7 @@ html,body {
   margin: 0 auto;
   box-sizing: border-box;
   font-family: sans-serif;
-
+  overflow-x: hidden;
 }
 
 * {
@@ -17,6 +17,11 @@ li,
 a {
   margin: 0;
   padding: 0;
+}
+
+.picture-aurora-sidebar {
+  width: 721px;
+  height: 475px;
 }
 
 #navigation {
@@ -1722,4 +1727,4 @@ main {
   }
 
 
-// @import 'solve-media';
+@import 'solve-media';
