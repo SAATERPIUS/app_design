@@ -1422,7 +1422,7 @@ main #section-5 .h2-input-button .input-button button {
   margin-top: 49px;
 }
 
-@media (max-width: 376px) {
+@media screen and (max-width: 376px) and (max-width: 376px) {
   html, body {
     width: 376px;
   }

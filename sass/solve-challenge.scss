@@ -1727,4 +1727,6 @@ main {
   }
 
 
-@import 'solve-media';
+@media screen and (max-width: 376px) {
+  @import 'solve-media';
+}
